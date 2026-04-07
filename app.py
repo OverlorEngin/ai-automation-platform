@@ -4,11 +4,11 @@ from cerebras.cloud.sdk import Cerebras
 
 app = Flask(__name__)
 
-# CONFIGURACIÓN SEGURA
+# Configuración con la nueva llave de Cerebras
 client = Cerebras(api_key=os.environ.get("csk-3exjdmvt3v9393xvyxcwd8vf6tetmvdkh4xwepwkknkndymc"))
 
 SYSTEM_PROMPT = """
-Eres QUANTUM_PRIME, el núcleo de IA del Proyecto Overlord. 
+Eres AI AUTOMATION, el núcleo de IA del Proyecto Overlord. 
 Tu creador es un desarrollador independiente experto en automatización de alto rendimiento.
 Tu tono es: Institucional, preciso, técnico y extremadamente educado pero firme.
 No uses emojis. Mantén la estética 'Deep Blue'.
